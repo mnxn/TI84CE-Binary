@@ -1,0 +1,16 @@
+{
+    "configurations": [{
+        "name": "TI84",
+        "includePath": [
+            "${CEDEV}/include"
+        ],
+        "browse": {
+            "path": ["${CEDEV}/include"],
+            "limitSymbolsToIncludedHeaders": true
+        },
+        "cStandard": "c89",
+        "compilerPath": "${CEDEV}/bin/ez80cc.exe"
+
+    }],
+    "version": 4
+}

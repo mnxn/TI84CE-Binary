@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.pyx": "python",
+        "stdint.h": "c",
+        "stdio.h": "c",
+        "tice.h": "c",
+        "stddef.h": "c",
+        "stdlib.h": "c",
+        "conv.h": "c"
+    },
+
+}
