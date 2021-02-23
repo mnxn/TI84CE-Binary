@@ -1,16 +1,15 @@
 {
-    "configurations": [{
-        "name": "TI84",
-        "includePath": [
-            "${CEDEV}/include"
-        ],
-        "browse": {
-            "path": ["${CEDEV}/include"],
-            "limitSymbolsToIncludedHeaders": true
-        },
-        "cStandard": "c89",
-        "compilerPath": "${CEDEV}/bin/ez80cc.exe"
-
-    }],
-    "version": 4
+	"configurations": [
+		{
+			"name": "TI84",
+			"includePath": ["${CEDEV}/include"],
+			"browse": {
+				"path": ["${CEDEV}/include"],
+				"limitSymbolsToIncludedHeaders": true
+			},
+			"cStandard": "c99",
+			"compilerPath": "${CEDEV}/bin/ez80-clang"
+		}
+	],
+	"version": 4
 }
